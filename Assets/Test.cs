@@ -4,10 +4,15 @@ using UnityEngine;
 
 public class Test : MonoBehaviour
 {
+    // 1 + x = 101
+    // 숫자1 상수
+    // x 변수
+    int x = 100; 
+
     // Start is called before the first frame update
     void Start()
     {
-        //양심은 있어야지 공부를 한게 있어야 
+        print(x);
     }
 
     // Update is called once per frame
