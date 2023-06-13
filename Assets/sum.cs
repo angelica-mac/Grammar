@@ -6,17 +6,17 @@ public class sum : MonoBehaviour
 {   
     int x = 100;
     int y = 100;
-    int summary;
+    int summary; // public class랑 이름 똑같으면 안됨
 
     // Start is called before the first frame update
     void Start()
     {
         summary = x + y;
 
-        print(summary);
+        print(summary); // 200
 
-        print(-summary);
-        
+        print(-summary); // -200
+
 
     }
 
