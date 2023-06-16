@@ -17,7 +17,6 @@ public class sum : MonoBehaviour
 
         print(-summary); // -200
 
-
     }
 
     // Update is called once per frame
