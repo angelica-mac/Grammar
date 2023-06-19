@@ -6,16 +6,16 @@ public class Part1B : MonoBehaviour
 {   
     int x = 100;
     int y = 100;
-    int summary; // public class랑 이름 똑같으면 안됨
+    int sum; // public class랑 이름 똑같으면 안됨
 
     // Start is called before the first frame update
     void Start()
     {
-        summary = x + y;
+        sum = x + y;
 
-        print(summary); // 200
+        print(sum); // 200
 
-        print(-summary); // -200
+        print(-sum); // -200
 
     }
 
