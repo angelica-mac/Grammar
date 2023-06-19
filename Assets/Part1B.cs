@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class sum : MonoBehaviour
+public class Part1B : MonoBehaviour
 {   
     int x = 100;
     int y = 100;
