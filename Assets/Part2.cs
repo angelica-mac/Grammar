@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Int : MonoBehaviour
+public class Part2 : MonoBehaviour
 {
     long a = 4000000000;
 
