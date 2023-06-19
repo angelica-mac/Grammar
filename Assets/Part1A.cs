@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Test : MonoBehaviour
+public class Part1A : MonoBehaviour
 {
     // 1 + x = 101
     // 숫자1 상수
