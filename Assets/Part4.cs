@@ -19,4 +19,5 @@ public class Part4 : MonoBehaviour
         int b = 5; // 지역 변수
         print(b);
     }
+    
 }
