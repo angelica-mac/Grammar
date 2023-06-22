@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Part3 : MonoBehaviour
+public class Part3A : MonoBehaviour
 {
     int intValue;
     float floatValue = 10.5f;
