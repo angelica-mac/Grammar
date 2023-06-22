@@ -8,7 +8,9 @@ public class Part4 : MonoBehaviour
 
     void Abc()
     {
-        a = 6;
+        int a = 5; // 지역 변수
+
+        a = 6; // 지역변수로 지정됨. 멤버변수(우위) > 지역변수 // 멤버변수와 지역변수가 이름이 같을경우 멤버변수 무시됨.
 
         int b = 5; // 지역 변수
         print(b);
@@ -16,8 +18,7 @@ public class Part4 : MonoBehaviour
 
     void Abc2()
     {
-        int b = 5; // 지역 변수
+        int b = 5; // 지역 변수; 같은 지역만 아니라면 이름이 같은 변수 선언 가능.
         print(b);
     }
-    
 }
