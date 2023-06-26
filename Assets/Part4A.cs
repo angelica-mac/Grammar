@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 //범위지정자
-public class Part4 : MonoBehaviour
+public class Part4A : MonoBehaviour
 {
     int a = 5; // 멤버 변수, 전역 변수
 
