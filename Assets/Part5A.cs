@@ -2,9 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-// 연산자
 public class Part5A : MonoBehaviour
-{
+{// 연산자
 // 기본연산자 + - * / %(나머지 값) =(대입연산자)
 
 int a = 10;

@@ -2,8 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public class Part4A : MonoBehaviour 
 //범위지정자
-public class Part4A : MonoBehaviour
 {
     int a = 5; // 멤버 변수, 전역 변수
 
@@ -27,4 +27,5 @@ public class Part4A : MonoBehaviour
     {
 
     }
+
 }

@@ -2,9 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-// 접근지정자
 public class Test
-{
+{ // 접근지정자
     private int a;  // 변수
     public int b;
     public static int c; // 공공의 공유자원.정적변수. 공유자원 수정하려면 class자체로 접근해야 함.
