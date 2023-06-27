@@ -2,21 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Part1B : MonoBehaviour
+public class Part4A : MonoBehaviour
 {   
-    int x = 100;
-    int y = 100;
-    int sum; 
+    int a = 5; // 멤버변수, 전역변수
+    
 
     // Start is called before the first frame update
     void Start()
     {
-        sum = x + y;
-
-        print(sum); // 200
-
-        print(-sum); // -200
-
+        
     }
 
     // Update is called once per frame
