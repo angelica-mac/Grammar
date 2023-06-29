@@ -11,7 +11,7 @@ public class Part7C : MonoBehaviour
     {          //캐릭터
         foreach(char a in text) // 큰 덩어리를 알맹이 개수만큼 쪼개줌.
         {
-            print(a);
+            print(a); // 가 나 다 라 마 바 사
         }
     }
 
