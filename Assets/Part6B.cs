@@ -25,6 +25,11 @@ public class Part6B : MonoBehaviour
         {
             print("input의 값이 num보다 작습니다.");
         }
+
+        else
+        {
+            print("그 밖의 경우");
+        }
     }
 
     // Update is called once per frame
