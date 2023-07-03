@@ -57,7 +57,7 @@ public class Part8A : MonoBehaviour
         exp[3] = 500;   // 배열의 원소 값은 변경할 수 있어도
         print(exp[3]);
 
-        exp[4] = 600;   // 오류남. 한번 정해진 배열은 변경할 수 없음.
+    //  exp[4] = 600;   // 오류남. 한번 정해진 배열은 변경할 수 없음.
         print(exp[4]);
 
 
