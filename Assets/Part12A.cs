@@ -39,11 +39,11 @@ public class Part12A : MonoBehaviour
         Onstart(5);
     }
 
-    private void OnDisable() // OnDisable 호출 안됨.
+    private void OnDisable() // OnDisable 호출 안됨. 안불러와져도 작동은 된대.
     {
         Onstart(5);
     }
-
+    
 
     // Update is called once per frame
     void Update()
