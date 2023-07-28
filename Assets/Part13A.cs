@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Part13A : MonoBehaviour
+abstract public class Part13A : MonoBehaviour
 { //        (Human)
 
 protected string HumanName;
@@ -18,5 +18,8 @@ protected virtual void Info()
 
     print("나는 인간입니다.");
 }
+
+abstract protected void Name(); // 추상함수 : 자식클래스에서 기능을 완성시켜야 하는 함수. 미완성인 상태로 둠. 완성은 자식클래스에서.
+                                // 추상함수를 쓰면 class도 abstract 붙여줘야 함.
 
 }

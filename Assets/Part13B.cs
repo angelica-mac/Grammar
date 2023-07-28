@@ -22,4 +22,9 @@ public class Part13B : Part13A
         base.Info(); // base : 부모클래스
         print("나는 학생입니다."); 
     }
+
+    protected override void Name()
+    {
+        print(HumanName);
+    }
 }
