@@ -34,7 +34,7 @@ namespace Angelica
 
 
 
-public class Part10A : MonoBehaviour
+public class Part10 : MonoBehaviour
 {
     Angelica.Youtube Angelica = new Angelica.Youtube();
 
