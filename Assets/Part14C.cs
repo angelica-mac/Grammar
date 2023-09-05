@@ -6,7 +6,7 @@ public class Part14C : MonoBehaviour
 {
     private int salary;
 
-        private void GetSalary(int value)
+    private void GetSalary(int value)
     {
         salary = value;
     }
