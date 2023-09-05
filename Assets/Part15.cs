@@ -28,7 +28,7 @@ public class Record
             
 }
 
-public class Part15A : MonoBehaviour
+public class Part15 : MonoBehaviour
 {   
     Record record = new Record();
     //temp에 접근하려면 class를 변수 타입으로 바꿔야겠지.생성도 바로 해줌.
