@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Part5A : MonoBehaviour
+public class Part5 : MonoBehaviour
 {   
     // 기본연산자 + - * / %(나머지) = (대입연산자)
     // 증감연산자 ++ --  전위(선 연산, 코드실행) 후위(선 코드실행, 후 연산)
