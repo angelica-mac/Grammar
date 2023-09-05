@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Part8A : MonoBehaviour
+public class Part8 : MonoBehaviour
 {
     int exp1 = 50;
     int exp2 = 100;
