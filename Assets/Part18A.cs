@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 // 람다식()>=
-public class Part18 : MonoBehaviour
+public class Part18A : MonoBehaviour
 {
     int a = 5;
     int b = 5;
@@ -33,6 +33,9 @@ public class Part18 : MonoBehaviour
         // 무명 메소드 : 함수를 만들지 않아도 델리게이트에 넣을 수 있다. 다른함수들 처럼 이름이 없음 대신 delegate키워드 사용. 
         //            delegate를 통해서만 호출 가능
         mydelegate += delegate () { print(sum);};
+
+        // 람다식 : 무명메소드 보다 간단. delegate도 없고 중괄호도 없음. // 길이차이만 있다고 봐도 무방. 결과값 똑같음.
+        mydelegate += ()=> print(sum); // ()안에는 매개변수가 들어가고 =>뒤에는 명령어가 들어감. 
 
         mydelegate += Back;
 
